@@ -7,6 +7,20 @@ font-size: 80px;
 
 h2 {
 font-family: "Molengo";
-font-size: 2em:
+font-size: 2em;
+
+}
+
+nav {
+    font-family: "Molengo";
+
+}
+
+
+/* Divs */
+
+.wrapper {
+    margin: auto;
+    width:80%;
 
 }
