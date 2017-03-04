@@ -1,4 +1,19 @@
 @font-face {
+  font-family: 'Dawning of a New Day';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Dawning-of-a-New-Day-regular/Dawning-of-a-New-Day-regular.eot');
+  src: url('../fonts/Dawning-of-a-New-Day-regular/Dawning-of-a-New-Day-regular.eot?#iefix') format('embedded-opentype'),
+       local('Dawning of a New Day'),
+       local('Dawning-of-a-New-Day-regular'),
+       url('../fonts/Dawning-of-a-New-Day-regular/Dawning-of-a-New-Day-regular.woff2') format('woff2'),
+       url('../fonts/Dawning-of-a-New-Day-regular/Dawning-of-a-New-Day-regular.woff') format('woff'),
+       url('../fonts/Dawning-of-a-New-Day-regular/Dawning-of-a-New-Day-regular.ttf') format('truetype'),
+       url('../fonts/Dawning-of-a-New-Day-regular/Dawning-of-a-New-Day-regular.svg#DawningofaNewDay') format('svg');
+}
+
+
+@font-face {
   font-family: 'Ubuntu Condensed';
   font-weight: 400;
   font-style: normal;

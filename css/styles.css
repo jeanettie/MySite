@@ -26,14 +26,21 @@ nav ul  {
     padding: 0;
 }
 
+nav ul li {
+    width: 80%;
+    margin: auto;
+
+}
+
 
 nav ul li a {
     display: block;
-    text-align: center;
+    margin: auto;
     font-size: 4em;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     width: 60%;
+    padding-top: 2%;
 }
 
 /* Links */
@@ -65,5 +72,15 @@ a:active {
 .wrapper {
     margin: auto;
     width:80%;
+
+}
+
+.fname {
+    font-family: ;
+
+}
+
+.lname {
+    font-family: ;  
 
 }
