@@ -1,22 +1,37 @@
-h1 {
-font-family: "Ubuntu Condensed";
-font-size: 10em;
-text-align: center;
+img {
+    margin: auto;
+}
+
+
+/* Name Banner */
+
+#firstname {
+    font-family: "Dawning of a New Day";
+    font-size: 10em;
+    margin-bottom: 0;
+    font-weight: inherit;
+
+
+}
+
+#lastname {
+    font-family: "Ubuntu Condensed";
+    font-size: 4em;
+    margin-top: -17%;
+    text-align: center;
+    font-weight: normal;
+
 
 }
 
 
-h2 {
-font-family: "Molengo";
-font-size: 2em;
-
-}
 
 /* Navigation Bar */
 
 nav {
     
-    font-family: "Molengo";
+    font-family: "ubuntu Condensed";
+    font-weight: normal;
     
 }
 
@@ -27,7 +42,7 @@ nav ul  {
 }
 
 nav ul li {
-    width: 80%;
+    width: 95%;
     margin: auto;
 
 }
@@ -35,8 +50,8 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    margin: auto;
-    font-size: 4em;
+    margin: auto 0 auto auto;
+    font-size: 3em;
     text-align: right;
     text-decoration: none;
     width: 60%;
@@ -69,18 +84,34 @@ a:active {
 
 /* Divs */
 
-.wrapper {
+#wrapper {
     margin: auto;
     width:80%;
 
 }
 
-.fname {
-    font-family: ;
+/* Name Banner Divs */
+#fname {
+    width: 80%;
+    margin: auto;
 
 }
 
-.lname {
-    font-family: ;  
+#lname {
+    width: 60%;
+    margin: auto 15% auto auto;  
+
+}
+
+/* End Name Banner Divs */
+
+#navbar {
+  width:80%;
+  margin: auto;
+
+}
+#content1 {
+ width: 80%;
+ margin: 15% auto;
 
 }
