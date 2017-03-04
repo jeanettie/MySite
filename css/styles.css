@@ -1,6 +1,7 @@
 h1 {
 font-family: "Ubuntu Condensed";
-font-size: 80px;
+font-size: 10em;
+text-align: center;
 
 }
 
@@ -11,9 +12,51 @@ font-size: 2em;
 
 }
 
-nav {
-    font-family: "Molengo";
+/* Navigation Bar */
 
+nav {
+    
+    font-family: "Molengo";
+    
+}
+
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+}
+
+/* Links */
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+
+/* visited link */
+a:visited {
+    color: deepskyblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightblue;
+}
+
+/* selected link */
+a:active {
+    color: deepskyblue;
 }
 
 
