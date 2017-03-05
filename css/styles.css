@@ -3,13 +3,16 @@ img {
 }
 
 
-/* Name Banner */
+
+/* Name Banner IDs*/
 
 #firstname {
     font-family: "Dawning of a New Day";
     font-size: 10em;
+    margin-top: 0;
     margin-bottom: 0;
     font-weight: inherit;
+    text-align: right;
 
 
 }
@@ -17,14 +20,21 @@ img {
 #lastname {
     font-family: "Ubuntu Condensed";
     font-size: 4em;
-    margin-top: -17%;
-    text-align: center;
+    margin-top: -13%;
+    margin-bottom: 0;
+    text-align: right;
     font-weight: normal;
 
 
 }
 
+/* Footer IDs */
 
+#copyright {
+text-align: center;
+font-size:0.8em;
+margin: 0 auto;
+}
 
 /* Navigation Bar */
 
@@ -43,16 +53,16 @@ nav ul  {
 
 nav ul li {
     width: 95%;
-    margin: auto;
+    
 
 }
 
 
 nav ul li a {
     display: block;
-    margin: auto 0 auto auto;
+    margin: 0;
     font-size: 3em;
-    text-align: right;
+    text-align: left;
     text-decoration: none;
     width: 60%;
     padding-top: 2%;
@@ -92,14 +102,14 @@ a:active {
 
 /* Name Banner Divs */
 #fname {
-    width: 80%;
+    width: 70%;
     margin: auto;
 
 }
 
 #lname {
-    width: 60%;
-    margin: auto 15% auto auto;  
+    width: 80%;
+    margin: auto;  
 
 }
 
