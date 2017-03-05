@@ -1,5 +1,7 @@
 img {
     margin: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -116,12 +118,12 @@ a:active {
 /* End Name Banner Divs */
 
 #navbar {
-  width:80%;
+  width:78%;
   margin: 2% auto;
 
 }
 #content1 {
- width: 80%;
+ width: 78%;
  margin: 10% auto;
 
 }
