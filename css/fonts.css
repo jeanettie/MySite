@@ -29,7 +29,7 @@
 
 
 @font-face {
-  font-family: 'Nunito';
+  font-family: 'Nunito Light';
   font-weight: 300;
   font-style: normal;
   src: url('../fonts/Nunito-300/Nunito-300.eot');
@@ -57,7 +57,7 @@
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Poppins Light';
   font-weight: 300;
   font-style: normal;
   src: url('../fonts/Poppins-300/Poppins-300.eot');

@@ -20,7 +20,7 @@ img {
 }
 
 #lastname {
-    font-family: "Ubuntu Condensed";
+    font-family: "Poppins Light";
     font-size: 4em;
     margin-top: -13%;
     margin-bottom: 0;
@@ -33,16 +33,17 @@ img {
 /* Footer IDs */
 
 #copyright {
-text-align: center;
-font-size:0.8em;
-margin: 0 auto;
+    font-family: "Nunito Light"
+    text-align: center;
+    font-size:0.8em;
+    margin: 0 auto;
 }
 
 /* Navigation Bar */
 
 nav {
     
-    font-family: "ubuntu Condensed";
+    font-family: "Nunito";
     font-weight: normal;
     
 }
