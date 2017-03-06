@@ -1,4 +1,5 @@
 img {
+    display: block;
     margin: auto;
     max-width: 100%;
     max-height: 100%;
@@ -13,7 +14,7 @@ img {
     font-size: 10em;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: inherit;
+    font-weight: lighter;
     text-align: right;
 
 
@@ -143,20 +144,52 @@ a:active {
 
 @media screen and (min-width: 768px) {
 
+#navbar {
+  width:100%;
+  margin: 2% 0 2% 0;
+}
+
 nav ul li {
     float:left;
-    width: 48%;
+    width: 20%;
 }
 
 
 nav ul li a {
     
     margin: auto;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     
     width: 100%;
     padding-top: 2%;
 }
 
+#content1 {
+    width: 100%;
+    margin-top: 5%;
+    margin: auto;
+}
+
+#indexphoto {
+    width:80%;
+    margin:auto;
+
+}
+
+
 } /* End media 498px */
+
+
+
+
+
+
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

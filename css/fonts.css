@@ -13,6 +13,22 @@
 }
 
 @font-face {
+  font-family: 'Homemade Apple';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Homemade-Apple-regular/Homemade-Apple-regular.eot');
+  src: url('../fonts/Homemade-Apple-regular/Homemade-Apple-regular.eot?#iefix') format('embedded-opentype'),
+       local('Homemade Apple'),
+       local('Homemade-Apple-regular'),
+       url('../fonts/Homemade-Apple-regular/Homemade-Apple-regular.woff2') format('woff2'),
+       url('../fonts/Homemade-Apple-regular/Homemade-Apple-regular.woff') format('woff'),
+       url('../fonts/Homemade-Apple-regular/Homemade-Apple-regular.ttf') format('truetype'),
+       url('../fonts/Homemade-Apple-regular/Homemade-Apple-regular.svg#HomemadeApple') format('svg');
+}
+
+
+
+@font-face {
   font-family: 'Molengo';
   font-weight: 400;
   font-style: normal;
@@ -82,6 +98,37 @@
        url('../fonts/Poppins-regular/Poppins-regular.woff') format('woff'),
        url('../fonts/Poppins-regular/Poppins-regular.ttf') format('truetype'),
        url('../fonts/Poppins-regular/Poppins-regular.svg#Poppins') format('svg');
+}
+
+@font-face {
+  font-family: 'Seaweed Script';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Seaweed-Script-regular/Seaweed-Script-regular.eot');
+  src: url('../fonts/Seaweed-Script-regular/Seaweed-Script-regular.eot?#iefix') format('embedded-opentype'),
+       local('Seaweed Script'),
+       local('Seaweed-Script-regular'),
+       url('../fonts/Seaweed-Script-regular/Seaweed-Script-regular.woff2') format('woff2'),
+       url('../fonts/Seaweed-Script-regular/Seaweed-Script-regular.woff') format('woff'),
+       url('../fonts/Seaweed-Script-regular/Seaweed-Script-regular.ttf') format('truetype'),
+       url('../fonts/Seaweed-Script-regular/Seaweed-Script-regular.svg#SeaweedScript') format('svg');
+}
+
+
+
+
+@font-face {
+  font-family: 'Sacramento';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Sacramento-regular/Sacramento-regular.eot');
+  src: url('../fonts/Sacramento-regular/Sacramento-regular.eot?#iefix') format('embedded-opentype'),
+       local('Sacramento'),
+       local('Sacramento-regular'),
+       url('../fonts/Sacramento-regular/Sacramento-regular.woff2') format('woff2'),
+       url('../fonts/Sacramento-regular/Sacramento-regular.woff') format('woff'),
+       url('../fonts/Sacramento-regular/Sacramento-regular.ttf') format('truetype'),
+       url('../fonts/Sacramento-regular/Sacramento-regular.svg#Sacramento') format('svg');
 }
 
 
