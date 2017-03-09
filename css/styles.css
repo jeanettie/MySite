@@ -37,7 +37,7 @@ img {
     font-family: "Nunito Light";
     text-align: center;
     font-size:0.8em;
-    margin: 0 auto;
+    margin: 2% auto;
 }
 
 /* Navigation Bar */
@@ -65,7 +65,7 @@ nav ul li {
 nav ul li a {
     display: block;
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: left;
     text-decoration: none;
     width: 100%;
@@ -142,7 +142,7 @@ a:active {
 /* Media Queries */
 
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
 #navbar {
   width:100%;
@@ -160,15 +160,14 @@ nav ul li a {
     margin: auto;
     font-size: 1em;
     text-align: center;
-    
+    display: inline-block;
     width: 100%;
     padding-top: 2%;
 }
 
 #content1 {
     width: 100%;
-    margin-top: 5%;
-    margin: auto;
+    margin: 5% auto;
 }
 
 #indexphoto {
@@ -176,9 +175,7 @@ nav ul li a {
     margin:auto;
 
 }
-
-
-} /* End media 498px */
+} /* End media 798px */
 
 
 
