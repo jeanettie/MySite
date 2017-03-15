@@ -11,23 +11,24 @@ img {
 
 #firstname {
     font-family: "Dawning of a New Day";
-    font-size: 10em;
+    font-size: 15vmax;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: lighter;
     text-align: right;
+    color: #04022E;
 
 
 }
 
 #lastname {
     font-family: "Poppins Light";
-    font-size: 4em;
-    margin-top: -17%;
+    font-size: 5vmax;
+    margin-top: -8vmax;
     margin-bottom: 0;
     text-align: right;
     font-weight: normal;
-
+    color: #CFE0F9;
 
 }
 
@@ -36,7 +37,7 @@ img {
 #copyright {
     font-family: "Nunito Light";
     text-align: center;
-    font-size:0.8em;
+    font-size: 2vmax;
     margin: 2% auto;
 }
 
@@ -46,7 +47,7 @@ nav {
     
     font-family: "Nunito";
     font-weight: normal;
-    
+    margin-top: 5%;
 }
 
 nav ul  {
@@ -65,7 +66,7 @@ nav ul li {
 nav ul li a {
     display: block;
     margin: 0;
-    font-size: 2.5em;
+    font-size: 4vmax;
     text-align: left;
     text-decoration: none;
     width: 100%;
@@ -94,7 +95,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    background-color: #ccc;
+    background-color: #f6f6f6;
     color: lightblue;
 }
 
@@ -114,13 +115,13 @@ a:active {
 
 /* Name Banner Divs */
 #fname {
-    width: 70%;
+    width: 90%;
     margin: auto;
 
 }
 
 #lname {
-    width: 80%;
+    width: 95%;
     margin: auto;  
 
 }
@@ -140,7 +141,25 @@ a:active {
 
 
 /* Media Queries */
+/*@media (min-width: 500px)  {
 
+#lastname {
+    margin-top: -16%;
+
+} 
+
+
+} /* End media 500px */
+
+
+/*@media (min-width: 650px)  {
+
+#lastname {
+    margin-top: -15%;
+
+}
+
+}/* End media 650px */  
 
 @media (min-width: 768px) {
 
@@ -175,10 +194,15 @@ nav ul li a {
     margin:auto;
 
 }
+}
+ /*#lastname {
+    margin-top: -13%;
+ }
+ 
 } /* End media 798px */
 
 
-@media (min-width: 1100px) {
+/*@media (min-width: 1100px) {
 
 #lastname {
     margin-top: -12%;
@@ -189,7 +213,7 @@ nav ul li a {
 }/*End media 1100px */
 
 
-@media (min-width: 1250px) {
+/*@media (min-width: 1250px) {
 
 #lastname {
     margin-top: -10%;
