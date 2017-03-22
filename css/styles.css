@@ -37,7 +37,7 @@ img {
 #copyright {
     font-family: "Nunito Light";
     text-align: center;
-    font-size: 2vmax;
+    font-size: 1.8vmax;
     margin: 2% auto;
 }
 
@@ -96,7 +96,7 @@ a:visited {
 /* mouse over link */
 a:hover {
     background-color: #f6f6f6;
-    color: lightblue;
+    color: #04022E;
 }
 
 /* selected link */
@@ -152,16 +152,21 @@ a:active {
 } /* End media 500px */
 
 
-/*@media (min-width: 650px)  {
+/*@media (min-width: 600px)  {
 
-#lastname {
-    margin-top: -15%;
 
+
+/* End media 650px */  
+
+@media screen and (min-width: 768px) {
+
+/* mouse over link */
+a:hover {
+    background-color: #fff;
 }
 
-}/* End media 650px */  
 
-@media (min-width: 768px) {
+
 
 #navbar {
   width:100%;
@@ -194,7 +199,13 @@ nav ul li a {
     margin:auto;
 
 }
+
+#copyright {
+  font-size: 1.5vmax;
 }
+
+}
+
  /*#lastname {
     margin-top: -13%;
  }
