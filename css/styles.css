@@ -165,7 +165,11 @@ a:hover {
     background-color: #fff;
 }
 
+.thumb {
 
+    max-height: 25vmax;
+    max-width: 25vmax;
+}
 
 
 #navbar {
