@@ -198,6 +198,11 @@ nav ul li a {
     margin: 5% auto;
 }
 
+#lightbox {
+    width:80%;
+
+}
+
 #indexphoto {
     width:80%;
     margin:auto;
