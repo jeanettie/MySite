@@ -17,7 +17,7 @@ ul {
 
 .imagebox {
     display: inline-block;
-    margin: 0.5vmax;
+    margin: 0.17vmax;
 }
 
 
@@ -26,7 +26,7 @@ ul {
 
 #firstname {
     font-family: "Dawning of a New Day";
-    font-size: 15vmax;
+    font-size: 10vmax;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: lighter;
@@ -38,8 +38,8 @@ ul {
 
 #lastname {
     font-family: "Poppins Light";
-    font-size: 5vmax;
-    margin-top: -8vmax;
+    font-size: 3vmax;
+    margin-top: -5vmax;
     margin-bottom: 0;
     text-align: right;
     font-weight: normal;
@@ -60,7 +60,7 @@ ul {
 
 nav {
     
-    font-family: "Nunito";
+    font-family: "Nunito Light";
     font-weight: normal;
     margin-top: 5%;
 }
@@ -130,13 +130,13 @@ a:active {
 
 /* Name Banner Divs */
 #fname {
-    width: 90%;
+    width: 95%;
     margin: auto;
 
 }
 
 #lname {
-    width: 95%;
+    
     margin: auto;  
 
 }
@@ -155,27 +155,15 @@ a:active {
 }
 
 #lightbox {
-    width:80%;
+   margin: auto;
+   text-align: center;
    
 }
 
 /* Media Queries */
-/*@media (min-width: 500px)  {
-
-#lastname {
-    margin-top: -16%;
-
-} 
 
 
-} /* End media 500px */
-
-
-/*@media (min-width: 600px)  {
-
-
-
-/* End media 650px */  
+  
 
 @media screen and (min-width: 768px) {
 
@@ -185,18 +173,19 @@ a:hover {
 }
 
 
-
+/* Thumbnail size for image gallery*/
 .thumb {
  display: inline-block;
- max-height: 18vmax;
- max-width: 18vmax; 
+ max-height: 11vmax;
+ max-width: 11max; 
  margin: auto;  
 }
 
+/* Inline Navbar for browser*/
 
 #navbar {
-  width:100%;
-  margin: 2% 0 2% 0;
+  width:80%;
+  margin: auto;
 }
 
 nav ul li {
@@ -212,7 +201,29 @@ nav ul li a {
     text-align: center;
     display: inline-block;
     width: 100%;
-    padding-top: 2%;
+    padding: 2%;
+}/*End Navbar Items*/
+
+#fname {
+    width: 85%;
+    margin: auto;
+
+}
+
+#lname {
+    width: 85%;
+    margin: auto;  
+
+}
+
+
+
+
+
+
+#lightbox {
+
+    width:65%;
 }
 
 #content1 {
@@ -220,53 +231,24 @@ nav ul li a {
     margin: 5% auto;
 }
 
-#lightbox {
-    width:60%;
-
-}
+/* Photo on Index.html page*/
 
 #indexphoto {
-    width:80%;
+    width:75%;
     margin:auto;
+    text-align: center;
 
 }
+
+/* Copyright for Browser*/
 
 #copyright {
   font-size: 1.2vmax;
 }
 
-}
+}/*End Media @ 768px*/
 
- /*#lastname {
-    margin-top: -13%;
- }
  
-} /* End media 798px */
-
-
-/*@media (min-width: 1100px) {
-
-#lastname {
-    margin-top: -12%;
-
-}
-
-
-}/*End media 1100px */
-
-
-/*@media (min-width: 1250px) {
-
-#lastname {
-    margin-top: -10%;
-
-}
-
-
-}/*End media 1250px */
-
-
-
 
 /* Clearfix */
 
