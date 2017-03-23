@@ -6,6 +6,12 @@ img {
 }
 
 
+/* Remove bullets from list items */
+
+ul {
+ list-style: none;
+
+}
 
 /* Name Banner IDs*/
 
