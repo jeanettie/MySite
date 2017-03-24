@@ -13,6 +13,15 @@ ul {
  
 }
 
+/* Thumbnail size for image gallery*/
+.thumb {
+ display: inline-block;
+ max-height: 50vmax;
+ max-width: 50max; 
+ margin: auto;  
+}
+
+
 /*List items in Lightbox*/
 
 .imagebox {

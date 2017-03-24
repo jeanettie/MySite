@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- CSS stylesheets -->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/fonts.css">
 
+<!-- flavicon -->
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<!-- JQuery for Lightbox/Lightcase -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Lightcase Links -->
+<link rel="stylesheet" type="text/css" href="lightcase/src/css/lightcase.css">
+<script type="text/javascript" src="lightCase/src/js/lightcase.js"></script>
+
+<!-- Wildcard to call Lightcase -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('a[data-rel^=lightcase]').lightcase();
+	});
+</script>
+
+<!-- Swipe for moblile Lightcase -->
+<script type="text/javascript" src="lightCase/vendor/JQuery/jquery.events.touch.js"></script>
 
 <meta charset="UTF-8">
     <title>Jeanette Brown</title>
@@ -30,12 +49,91 @@
                 </ul> 
             </nav>
 
-        </div> <!-- navbar -->
+        </div> <!-- End navbar div -->
         
         <div id="content1">
-            <div id="indexphoto">
-                <img src="imgs/2d/jeanettebrownraincloud.jpg" alt="Jeanette Brown's photgraph of a rain cloud">
-            </div>    
+            
+            <div id="lightbox">
+                <ul>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrowndeparture.jpg" data-rel="lightcase:3d" title="Departure"> <img src="imgs/3d/jeanettebrowndeparturesq.jpg" class="thumb" alt="Polymer, 21x7x0.5 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+             
+                
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownneko.jpg" data-rel="lightcase:3d" title="Michiri"> <img src="imgs/3d/jeanettebrownnekosq.jpg" class="thumb" alt="Mixed Media, 4.5x5x3.5 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownuntitled.jpg" data-rel="lightcase:3d" title="Untitled"> <img src="imgs/3d/jeanettebrownuntitledsq.jpg" class="thumb" alt="Glass, 11.75x4x0.75 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownbrush.jpg" data-rel="lightcase:3d" title="Wistfulness"> <img src="imgs/3d/jeanettebrownbrushsq.jpg" class="thumb" alt="Mixed Media, 7.5x3x2 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownpassage.jpg" data-rel="lightcase:3d" title="Passage"> <img src="imgs/3d/jeanettebrownpassagesq.jpg" class="thumb" alt="Mixed Media, 36x12x10 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownhedgie.jpg" data-rel="lightcase:3d" title="Professor Hedgiemond Wigglybottom"> <img src="imgs/3d/jeanettebrownhedgiesq.jpg" class="thumb" alt="Mixed Media, 18x18x18 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownpit.jpg" data-rel="lightcase:3d" title="Pit"> <img src="imgs/3d/jeanettebrownpitsq.jpg" class="thumb" alt="Glass, 4x3.5x2 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownpill.jpg" data-rel="lightcase:3d" title="XR"> <img src="imgs/3d/jeanettebrownpillsq.jpg" class="thumb" alt="Mixed Media, 4x1.5x1.5 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownocto.jpg" data-rel="lightcase:3d" title="Grapple"> <img src="imgs/3d/jeanettebrownoctosq.jpg" class="thumb" alt="Glass, 7x17x9 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrowncane.jpg" data-rel="lightcase:3d" title="Undulation"> <img src="imgs/3d/jeanettebrowncanesq.jpg" class="thumb" alt="Glass, 12x36x6 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrowncubes.jpg" data-rel="lightcase:3d" title="10"> <img src="imgs/3d/jeanettebrowncubessq.jpg" class="thumb" alt="Glass, 4x10x4 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+                   <div class="imagebox">
+                        <li >
+                            <a href="imgs/3d/jeanettebrownurchin.jpg" data-rel="lightcase:3d" title="Nettle"> <img src="imgs/3d/jeanettebrownurchinsq.jpg" class="thumb" alt="Glass, 5x5x5 inches, Jeanette Brown">
+                            </a>
+                        </li>
+                   </div>
+
+
+
+         </ul>
+         </div><!-- end lightbox div -->           
         </div> <!-- end content 1 div -->
         
         
