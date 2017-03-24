@@ -128,12 +128,50 @@ a:active {
     color: deepskyblue;
 }
 
+/* Formatting for Biography Page*/
+
+.bioh2 {
+   font-family: "Nunito";
+   color: #249B9B;
+
+}
+
+.biop  {
+ font-family: "Nunito Light";
+
+}
+
+.biocaption {
+
+    font-family: "Nunito";
+    text-align: center;
+    margin-bottom: 1vmax;
+
+}
+
+/*Bio Divs*/
+
+#contentbio {
+
+    width:80%;
+    margin:auto;
+}
+
+#biophoto {
+ 
+ max-height: 90vmax;
+ max-width: 90vmax;
+ margin: 3vmax auto 1vmax auto;
+
+}
+/*End of Bio specific formatting*/
+
 
 /* Divs */
 
 #wrapper {
     margin: auto;
-    width:80%;
+    width:75%;
 
 }
 
