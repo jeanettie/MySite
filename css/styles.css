@@ -287,12 +287,36 @@ nav ul li a {
 
 }
 
+/*Content for Bio Page*/
+
+/*Divs*/
+
+#bio {
+
+    margin-top: 2vmax;
+}
+
+#biophoto {
+    width: 75%;
+    float: right;
+    margin: 1vmax 0 2vmax 2vmax;
+    
+}
+/*Photo and Caption on Bio Page*/
+
+#figurebio {
+    margin: auto;
+}
+
+
+
+
 /* Copyright for Browser*/
 
 #copyright {
   font-size: 1.2vmax;
-}
 
+}
 }/*End Media @ 768px*/
 
  
