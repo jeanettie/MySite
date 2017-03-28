@@ -113,8 +113,8 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover {
-   
+a:hover, a:focus {
+    background: #fff;
     color: #04022E;
 }
 
@@ -222,7 +222,7 @@ a:active {
 @media screen and (min-width: 768px) {
 
 /* mouse over link */
-a:hover {
+a:hover, a:focus {
     background-color: #fff;
 }
 
