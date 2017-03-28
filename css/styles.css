@@ -134,6 +134,7 @@ a:active {
 .biop  {
  font-family: "Nunito Light";
 
+
 }
 
 .biocaption {
@@ -148,16 +149,25 @@ a:active {
 
 #contentbio {
 
-    width:80%;
+    width:95%;
     margin:auto;
 }
 
 #biophoto {
- display:block;
- max-height: 90vmax;
- max-width: 90vmax;
- margin: 3vmax auto 1vmax auto;
 
+
+ margin: 4vmax auto 1.5vmax auto;
+
+}
+
+#bio{
+    width: 80%;
+     margin: auto;
+}
+
+#statement {
+    width: 80%;
+     margin: auto;
 }
 /*End of Bio specific formatting*/
 
