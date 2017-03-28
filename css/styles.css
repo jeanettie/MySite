@@ -75,20 +75,20 @@ nav {
 }
 
 nav ul  {
-    list-style-type: none;
+   
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
   width: 100%; 
-  display: block;  
+    
 
 }
 
 
 nav ul li a {
-    display: inline-block;
+    display: block;
     margin: 0;
     font-size: 4vmax;
     text-align: left;
@@ -153,7 +153,7 @@ a:active {
 }
 
 #biophoto {
- 
+ display:block;
  max-height: 90vmax;
  max-width: 90vmax;
  margin: 3vmax auto 1vmax auto;
@@ -237,14 +237,17 @@ nav ul li {
 
 
 nav ul li a {
-    
+    display: inline-block;
     margin: auto;
     font-size: 1em;
     text-align: center;
-    display: inline-block;
-    width: 100%;
     padding: 2%;
-}/*End Navbar Items*/
+}
+
+
+
+
+/*End Navbar Items*/
 
 #fname {
     width: 85%;
@@ -309,9 +312,11 @@ nav ul li a {
 /* Copyright for Browser*/
 
 #copyright {
+  margin-top: 2%;
   font-size: 1.2vmax;
 
 }
+
 }/*End Media @ 768px*/
 
  
