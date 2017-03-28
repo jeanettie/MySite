@@ -153,6 +153,11 @@ a:active {
     margin:auto;
 }
 
+#bio {
+    width: 80%;
+    margin: 4vmax auto;
+}
+
 #biophoto {
 
 
@@ -160,10 +165,7 @@ a:active {
 
 }
 
-#bio{
-    width: 80%;
-     margin: auto;
-}
+
 
 #statement {
     width: 80%;
@@ -299,17 +301,14 @@ nav ul li a {
 
 /*Divs*/
 
-#bio {
 
-    margin-top: 2vmax;
-}
-
-#biophoto {
-    width: 75%;
+ #biophoto {
+    width: 70%;
     float: right;
-    margin: 1vmax 0 2vmax 2vmax;
+    margin: 4vmax 0 2vmax 2vmax;
     
 }
+
 /*Photo and Caption on Bio Page*/
 
 #figurebio {
@@ -324,12 +323,22 @@ nav ul li a {
 #copyright {
   margin-top: 2%;
   font-size: 1.2vmax;
-
+  clear: both;
 }
 
 }/*End Media @ 768px*/
 
- 
+ /*Media Query*/
+
+@media screen and (min-width: 1000px) {
+
+#biophoto {
+
+    width: 60%;
+}
+
+}
+
 
 /* Clearfix */
 
