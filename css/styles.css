@@ -113,19 +113,19 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: deepskyblue;
+    color: #022B37;
 }
 
 /* mouse over link */
 a:hover, a:focus {
-    background: #fff;
-    color: #022B37;
+    background: #eee;
+    color: #22B7Df;
 }
 
 /* selected link */
 a:active {
     color: deepskyblue;
-    background: gray;
+    background: #bbb;
 }
 
 /* Formatting for Biography Page*/
