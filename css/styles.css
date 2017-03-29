@@ -6,6 +6,16 @@ img {
 }
 
 
+/*Signature Image*/
+
+#firstname {
+ height: 300%;
+ width: 300%;
+
+}
+
+
+
 /* Remove bullets from list items */
 
 ul {
@@ -33,26 +43,20 @@ ul {
 
 /* Name Banner IDs*/
 
-#firstname {
-    font-family: "Dawning of a New Day";
-    font-size: 10vmax;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: lighter;
-    text-align: right;
-    color: #04022E;
 
 
-}
+
+
+
 
 #lastname {
-    font-family: "Poppins Light";
-    font-size: 3vmax;
-    margin-top: -5vmax;
+    font-family: 'Nunito Light';
+    font-size: 2.75vmax;
+    margin-top: -3.5vmax;
     margin-bottom: 0;
     text-align: right;
-    font-weight: normal;
-    color: #CFE0F9;
+    font-weight: 100;
+    color: #22B7DF;
 
 }
 
@@ -115,19 +119,21 @@ a:visited {
 /* mouse over link */
 a:hover, a:focus {
     background: #fff;
-    color: #04022E;
+    color: #022B37;
 }
 
 /* selected link */
 a:active {
     color: deepskyblue;
+    background: gray;
 }
 
 /* Formatting for Biography Page*/
 
 .bioh2 {
-   font-family: "Nunito";
+   font-family: "Nunito Light";
    color: #249B9B;
+   font-weight: 100;
 
 }
 
@@ -149,12 +155,12 @@ a:active {
 
 #contentbio {
 
-    width:95%;
+    width:85%;
     margin:auto;
 }
 
 #bio {
-    width: 80%;
+    
     margin: 4vmax auto;
 }
 
@@ -184,15 +190,13 @@ a:active {
 
 /* Name Banner Divs */
 #fname {
-    width: 90%;
-    margin: auto;
-    text-indent: -20000px;
-    background-image: 
-
+    width: 40%;
+    margin: 5% 10% 0 50%;
+    
 }
 
 #lname {
-    width: 85%;
+    width: 80%;
     margin: auto;  
 
 }
@@ -200,12 +204,12 @@ a:active {
 /* End Name Banner Divs */
 
 #navbar {
-  width:78%;
+  width:85%;
   margin: 2% auto;
 
 }
 #content1 {
- width: 78%;
+ width: 85%;
  margin: 10% auto;
 
 }
@@ -237,6 +241,24 @@ a:hover, a:focus {
  margin: auto;  
 }
 
+/* Name Banner Divs */
+#fname {
+    width: 35%;
+    margin: 5% 2% 0 62%;
+    
+}
+
+#lname {
+    width: 90%;
+    margin: auto;  
+
+}
+
+#lastname {
+    
+     margin-top: -4vmax;
+}
+
 /* Inline Navbar for browser*/
 
 #navbar {
@@ -263,11 +285,7 @@ nav ul li a {
 
 /*End Navbar Items*/
 
-#fname {
-    width: 85%;
-    margin: auto;
 
-}
 
 #lname {
     width: 85%;
@@ -307,6 +325,16 @@ nav ul li a {
 /*Divs*/
 
 
+ #bio {
+    width: 80%
+
+ }
+
+ #statement {
+
+     width: 80%;
+ }
+
 
  #biophoto {
     width: 70%;
@@ -341,6 +369,11 @@ nav ul li a {
 #biophoto {
 
     width: 60%;
+}
+
+#lastname {
+    
+     margin-top: -5vmax;
 }
 
 }
