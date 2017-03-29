@@ -178,19 +178,19 @@ a:active {
 
 #wrapper {
     margin: auto;
-    width:90%;
+    width:100%;
 
 }
 
 /* Name Banner Divs */
 #fname {
-    width: 95%;
+    width: 90%;
     margin: auto;
 
 }
 
 #lname {
-    
+    width: 85%;
     margin: auto;  
 
 }
@@ -273,9 +273,12 @@ nav ul li a {
 
 }
 
+/*Divs*/
 
+#wrapper {
+    width: 90%;
 
-
+}
 
 
 #lightbox {
@@ -300,6 +303,7 @@ nav ul li a {
 /*Content for Bio Page*/
 
 /*Divs*/
+
 
 
  #biophoto {
