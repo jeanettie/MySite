@@ -57,6 +57,7 @@ ul {
     text-align: right;
     font-weight: 100;
     color: #22B7DF;
+    letter-spacing: .05vmax;
 
 }
 
@@ -67,6 +68,7 @@ ul {
     text-align: center;
     font-size: 1.8vmax;
     margin: 6% auto;
+    letter-spacing: .02vmax;
 }
 
 /* Navigation Bar */
@@ -100,6 +102,7 @@ nav ul li a {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
+    letter-spacing: .03vmax;
 }
 
 /* Links */
@@ -135,11 +138,13 @@ a:active {
    font-family: "Nunito Light";
    color: #249B9B;
    font-weight: 100;
+   letter-spacing: .03vmax;
 
 }
 
 .biop  {
  font-family: "Nunito Light";
+ letter-spacing: .02vmax;
 
 
 }
@@ -151,6 +156,7 @@ a:active {
     font-size: 2vmax;
     margin-top: 1.5vmax;
     margin-bottom: 1vmax;
+    letter-spacing: .03vmax;
 
 }
 
@@ -199,12 +205,12 @@ statement {
 /* Name Banner Divs */
 #fname {
     width: 60%;
-    margin: 5% 10% 0 30%;
+    margin: 5% 2% 0 38%;
     
 }
 
 #lname {
-    width: 70%;
+    width: 80%;
     margin: auto;  
 
 }
@@ -286,6 +292,7 @@ nav ul li a {
     font-size: 1em;
     text-align: center;
     padding: 2%;
+    
 }
 
 
