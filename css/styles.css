@@ -148,6 +148,8 @@ a:active {
 
     font-family: "Nunito";
     text-align: center;
+    font-size: 2vmax;
+    margin-top: 1.5vmax;
     margin-bottom: 1vmax;
 
 }
@@ -172,12 +174,17 @@ a:active {
 
 }
 
-
-
-#statement {
+statement {
    
      margin: auto;
 }
+
+/*Photo and Caption on Bio Page*/
+
+#figurebio {
+    margin: auto;
+}
+
 /*End of Bio specific formatting*/
 
 
@@ -344,11 +351,7 @@ nav ul li a {
     
 }
 
-/*Photo and Caption on Bio Page*/
 
-#figurebio {
-    margin: auto;
-}
 
 
 
