@@ -66,7 +66,7 @@ ul {
     font-family: "Nunito Light";
     text-align: center;
     font-size: 1.8vmax;
-    margin: 2% auto;
+    margin: 6% auto;
 }
 
 /* Navigation Bar */
@@ -332,16 +332,13 @@ nav ul li a {
 
 /*Divs*/
 
+#contentbio {
 
- #bio {
-    width: 80%
+    width:85%;
+    margin:auto;
+}
 
- }
 
- #statement {
-
-     width: 80%;
- }
 
 
  #biophoto {
@@ -352,14 +349,16 @@ nav ul li a {
 }
 
 
-
+.biocaption {
+    font-size: 1.5vmax;
+}
 
 
 
 /* Copyright for Browser*/
 
 #copyright {
-  margin-top: 2%;
+  
   font-size: 1.2vmax;
   clear: both;
 }
@@ -370,17 +369,37 @@ nav ul li a {
 
 @media screen and (min-width: 1000px) {
 
-#biophoto {
-
-    width: 60%;
-}
 
 #lastname {
     
      margin-top: -5vmax;
 }
 
+/*Bio Page*/
+
+#contentbio {
+    width: 68%;
+
 }
+
+
+
+#biophoto {
+
+    width: 60%;
+}
+
+.biocaption {
+    font-size: 1vmax;
+}
+
+
+
+
+}
+/*End Media Query for 1000px*/
+
+
 
 
 /* Clearfix */
