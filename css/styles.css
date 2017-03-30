@@ -52,7 +52,7 @@ ul {
 #lastname {
     font-family: 'Nunito Light';
     font-size: 2.75vmax;
-    margin-top: -3.5vmax;
+    margin-top: -4.75vmax;
     margin-bottom: 0;
     text-align: right;
     font-weight: 100;
@@ -94,11 +94,12 @@ nav ul li {
 nav ul li a {
     display: block;
     margin: 0;
-    font-size: 4vmax;
+    font-size: 3vmax;
     text-align: left;
     text-decoration: none;
     width: 100%;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* Links */
@@ -118,14 +119,14 @@ a:visited {
 
 /* mouse over link */
 a:hover, a:focus {
-    background: #eee;
+    background-color: #eee;
     color: #22B7Df;
 }
 
 /* selected link */
 a:active {
     color: deepskyblue;
-    background: #bbb;
+    background-color: #bbb;
 }
 
 /* Formatting for Biography Page*/
@@ -174,7 +175,7 @@ a:active {
 
 
 #statement {
-    width: 80%;
+   
      margin: auto;
 }
 /*End of Bio specific formatting*/
@@ -190,13 +191,13 @@ a:active {
 
 /* Name Banner Divs */
 #fname {
-    width: 40%;
-    margin: 5% 10% 0 50%;
+    width: 60%;
+    margin: 5% 10% 0 30%;
     
 }
 
 #lname {
-    width: 80%;
+    width: 70%;
     margin: auto;  
 
 }
@@ -205,7 +206,7 @@ a:active {
 
 #navbar {
   width:85%;
-  margin: 2% auto;
+  margin: 6% auto;
 
 }
 #content1 {
