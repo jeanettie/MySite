@@ -236,37 +236,9 @@ statement {
 
 /* Media Queries */
 
-@media screen and (min-width: 400px) {
 
-    #lastname {
-        
-        margin-top: -6vmax;
-    }
 
-}
-/*End media Query for 400px*/
-  
-@media screen and (min-width: 500px) {
-
-    #lastname {
-        
-        margin-top: -6.5vmax;
-    }
-
-}
-/*End media Query for 500px*/
-
-@media screen and (min-width: 550px) {
-
-    #lastname {
-        
-        margin-top: -7.5vmax;
-    }
-
-}
-/*End media Query for 550px*/
-
-@media screen and (min-width: 6500px) {
+@media screen and (min-width: 650px) {
 
     #lastname {
         
