@@ -52,7 +52,7 @@ ul {
 #lastname {
     font-family: 'Nunito Light';
     font-size: 2.75vmax;
-    margin-top: -4.75vmax;
+    margin-top: -5.25vmax;
     margin-bottom: 0;
     text-align: right;
     font-weight: 100;
@@ -236,8 +236,45 @@ statement {
 
 /* Media Queries */
 
+@media screen and (min-width: 400px) {
 
+    #lastname {
+        
+        margin-top: -6vmax;
+    }
+
+}
+/*End media Query for 400px*/
   
+@media screen and (min-width: 500px) {
+
+    #lastname {
+        
+        margin-top: -6.5vmax;
+    }
+
+}
+/*End media Query for 500px*/
+
+@media screen and (min-width: 550px) {
+
+    #lastname {
+        
+        margin-top: -7.5vmax;
+    }
+
+}
+/*End media Query for 550px*/
+
+@media screen and (min-width: 6500px) {
+
+    #lastname {
+        
+        margin-top: -9vmax;
+    }
+
+}
+/*End media Query for 6500px*/
 
 @media screen and (min-width: 768px) {
 
