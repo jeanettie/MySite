@@ -1,0 +1,25 @@
+/* TEAM */
+	The Woman:Jeanette Brown
+	Contact: mail [at] jeanettie.com
+	Twitter: @jeanettienicole
+	From:Everywhere, USA 
+
+	UI developer: Jeanette Brown
+	Twitter: @jeanettienicole 
+	From: Everwhere, USA 
+
+	Illustrator: Jeanette Brown
+	Twitter: @jeanettienicole 
+	From: Everwhere, USA 
+  
+	Web designer: Jeanette Brown
+	Twitter: @jeanettienicole 
+	From: Everwhere, USA 
+ 
+ 
+/* SITE */
+	Last update:2017/03/31
+	Language: English
+	Doctype:HTML5, CSS3
+	Components:jQuery
+	Software: Visual Studio Code, Notepad++, Photoshop, Adobe Illustrator
