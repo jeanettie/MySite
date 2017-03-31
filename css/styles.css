@@ -270,7 +270,8 @@ a:hover, a:focus {
 
 #lastname {
     
-     margin-top: -4vmax;
+    font-size: 2.25vmax;
+    margin-top: -4vmax;
 }
 
 /* Inline Navbar for browser*/
@@ -378,8 +379,8 @@ nav ul li a {
 
 
 #lastname {
-    
-     margin-top: -5vmax;
+     font-size: 2vmax;
+    margin-top: -5vmax;
 }
 
 /*Bio Page*/
